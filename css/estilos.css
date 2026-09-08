@@ -1,0 +1,119 @@
+ header {
+      background-color: #073B5C;
+      text-align: center;
+      padding: 20px 0;
+               }
+
+      .cabecera h1 {
+      font-family: Montserrat, sans-serif;
+      font-size: 40px;
+      color: #ffffff;
+      margin: 0;
+       }
+
+      .cabecera p {
+      font-family: Roboto, sans-serif;
+      font-size: 20px;
+      color: #ffffff;
+      margin: 10px;       
+       }     
+
+   nav {
+    width:100%;
+    text-align:center;
+    background-color:#052C45;
+    margin: 0;
+   }
+
+   nav a {
+      display: inline-block;
+      margin: 5px; /* Cambia el ancho del fondo del Menu */
+      padding: 12px;
+      background-color: #0B5E8E; /* color de los botones */
+      color: #ffffff;
+      font-family: Montserrat, sans-serif; /* Montserrat es el texto principal, si falla va cargar sans-serif */
+      font-size: 1.1em;
+      text-decoration: none; /* Esto quita el subrayado del enlace */
+      border-radius: 6px; /* bordes redondeados */
+      transition: background-color 0.3s, color 0.3s;
+      }
+
+     nav a:hover {
+      color: #ffffff; /* Color del texto al pasar el cursor */
+      background-color: #3FA7D6;
+      }
+
+   body {
+    margin: 0; /* margen para que quede pegado a la pantalla del navegador */
+    background-image:url(../img/fondoazuledificios.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+   }
+
+   section {
+   background-color:white;
+   color: #222222;
+   width:70%;
+   max-width: 900px;
+   margin: 10px auto;
+   font-size:20px;
+   padding: 20px;
+   border-radius: 10px;
+   text-align:justify;
+   font-family: Roboto, sans-serif;
+   }
+ 
+  section h2 {
+    color: #073B5C;
+    text-align: center;
+    }
+
+  section h3 {
+    color: #607D8B;
+    text-align: center;
+   }
+
+   .centrar {
+   text-align:center;
+   }
+
+   .centrar img {
+   width: 100%;
+   max-width: 600px;
+   height: auto;
+   }
+
+   .video {
+   width: 100%;
+   max-width: 560px;
+   aspect-ratio: 16 / 9;
+   border: none;
+}
+
+footer {
+    background-color: #052C45;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    font-family: Roboto, sans-serif;
+}
+   
+@media (max-width: 600px) { 
+nav a { 
+display: block; 
+width: 90%; 
+margin: 10px auto; 
+} 
+
+section {
+width: 85%;
+font-size: 18px;
+text-align: left;
+}
+
+      .cabecera h1 {
+      font-size: 32px;
+       }
+}
