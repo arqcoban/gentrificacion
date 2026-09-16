@@ -1,27 +1,26 @@
- header {
-      background-color: #073B5C;
-      text-align: center;
-      padding: 20px 0;
-               }
+header {
+    background-color: #F6F5F0;
+    text-align: center;
+    padding: 5px 0;
+}
 
-      .cabecera h1 {
-      font-family: Montserrat, sans-serif;
-      font-size: 40px;
-      color: #ffffff;
-      margin: 0;
-       }
+.cabecera {
+    width: 85%;
+    max-width: 800px;
+    margin: 0 auto;
+}
 
-      .cabecera p {
-      font-family: Roboto, sans-serif;
-      font-size: 20px;
-      color: #ffffff;
-      margin: 10px;       
-       }     
+.cabecera img {
+    display: block;
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+}    
 
    nav {
     width:100%;
     text-align:center;
-    background-color:#052C45;
+    background-color:#1E2225;
     margin: 0;
    }
 
@@ -29,7 +28,7 @@
       display: inline-block;
       margin: 5px; /* Cambia el ancho del fondo del Menu */
       padding: 12px;
-      background-color: #0B5E8E; /* color de los botones */
+      background-color: #4E583E; /* color de los botones */
       color: #ffffff;
       font-family: Montserrat, sans-serif; /* Montserrat es el texto principal, si falla va cargar sans-serif */
       font-size: 1.1em;
@@ -40,12 +39,12 @@
 
      nav a:hover {
       color: #ffffff; /* Color del texto al pasar el cursor */
-      background-color: #3FA7D6;
+      background-color: #D89B53;
       }
 
    body {
     margin: 0; /* margen para que quede pegado a la pantalla del navegador */
-    background-image:url(../img/fondoazuledificios.jpg);
+    background-image:url(../img/fondonew.png);
     background-attachment: fixed;
     background-size: cover;
     background-repeat: no-repeat;
@@ -53,8 +52,8 @@
    }
 
    section {
-   background-color:white;
-   color: #222222;
+   background-color: #FFFFFF;
+   color: #1E2225;
    width:70%;
    max-width: 900px;
    margin: 10px auto;
@@ -67,12 +66,12 @@
    }
  
   section h2 {
-    color: #073B5C;
+    color: #1E2225;
     text-align: center;
     }
 
   section h3 {
-    color: #607D8B;
+    color: #4E583E;
     text-align: center;
    }
 
@@ -125,11 +124,46 @@
 }
 
 footer {
-    background-color: #052C45;
-    color: white;
+    background-color: #1E2225;
+    color: #F6F5F0;
     text-align: center;
-    padding: 15px;
+    padding: 30px 20px;
     font-family: Roboto, sans-serif;
+}
+
+footer h3 {
+    margin: 0 0 8px;
+    font-family: Montserrat, sans-serif;
+    color: #F6F5F0;
+    font-size: 22px;
+}
+
+footer p {
+    margin: 6px 0;
+}
+
+.footer-linea {
+    width: 180px;
+    height: 2px;
+    background-color: #4E583E;
+    margin: 18px auto;
+}
+
+footer .lema {
+    color: #D89B53;
+    font-family: Montserrat, sans-serif;
+    font-weight: 600;
+    letter-spacing: 3px;
+}
+
+footer .credito {
+    margin-top: 18px;
+    font-size: 14px;
+}
+
+footer .copyright {
+    color: #8C9094;
+    font-size: 13px;
 }
 
 .proyectos-lista {
@@ -157,7 +191,9 @@ footer {
     font-size: 17px;
     font-weight: 600;
     text-align: left;
-    background: #f1f1f1;
+    background: #4E583E;
+    color: #F6F5F0;
+    border-radius: 5px;  
 }
 
 .acordeon-titulo span {
@@ -168,6 +204,8 @@ footer {
 .acordeon-contenido {
     display: none;
     padding: 15px 20px;
+    background: #F6F5F0;
+    color: #1E2225;
 }
 
 .acordeon-contenido.activo {
@@ -191,7 +229,4 @@ text-align: left;
         grid-template-columns: 1fr;
     }
 
-      .cabecera h1 {
-      font-size: 32px;
-       }
 }
