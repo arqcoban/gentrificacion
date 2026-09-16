@@ -131,41 +131,56 @@ footer {
     font-family: Roboto, sans-serif;
 }
 
-footer h3 {
-    margin: 0 0 8px;
-    font-family: Montserrat, sans-serif;
+/* =========================
+   FOOTER
+   ========================= */
+
+footer {
+    background-color: #1E2225;
     color: #F6F5F0;
-    font-size: 22px;
+    text-align: center;
+    padding: 30px 20px;
+    font-family: Roboto, sans-serif;
+    box-sizing: border-box;
 }
 
-footer p {
-    margin: 6px 0;
+/* Información institucional */
+
+footer .institucion,
+footer .campus {
+    margin: 0;
+    color: #D89B53;
+    font-size: 18px;
+    line-height: 1.7;
 }
+
+/* Línea decorativa */
 
 .footer-linea {
-    width: 180px;
+    width: 225px;
     height: 2px;
     background-color: #4E583E;
-    margin: 18px auto;
+    margin: 18px auto 22px;
 }
 
-footer .lema {
-    color: #D89B53;
-    font-family: Montserrat, sans-serif;
-    font-weight: 600;
-    letter-spacing: 3px;
+/* Créditos */
+
+footer .credito,
+footer .credito-imagenes {
+    margin: 0;
+    color: #F6F5F0;
+    font-size: 17px;
+    line-height: 1.5;
 }
 
-footer .credito {
-    margin-top: 18px;
-    font-size: 14px;
-}
+/* Copyright */
 
 footer .copyright {
-    color: #8C9094;
-    font-size: 13px;
+    margin: 2px 0 0;
+    color: #F6F5F0;
+    font-size: 17px;
+    line-height: 1.5;
 }
-
 .proyectos-lista {
     padding-left: 25px;
 }
