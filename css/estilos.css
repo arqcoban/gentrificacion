@@ -131,6 +131,48 @@ footer {
     padding: 15px;
     font-family: Roboto, sans-serif;
 }
+
+.proyectos-lista {
+    padding-left: 25px;
+}
+
+.proyectos-lista li {
+    margin-bottom: 8px;
+    line-height: 1.5;
+}
+
+.acordeon {
+    margin-bottom: 10px;
+}
+
+.acordeon-titulo {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 18px;
+    border: none;
+    cursor: pointer;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 17px;
+    font-weight: 600;
+    text-align: left;
+    background: #f1f1f1;
+}
+
+.acordeon-titulo span {
+    font-size: 25px;
+    font-weight: 400;
+}
+
+.acordeon-contenido {
+    display: none;
+    padding: 15px 20px;
+}
+
+.acordeon-contenido.activo {
+    display: block;
+}
    
 @media (max-width: 700px) { 
 nav a { 
