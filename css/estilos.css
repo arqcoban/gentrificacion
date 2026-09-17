@@ -64,7 +64,16 @@ header {
    font-family: Roboto, sans-serif;
    box-sizing: border-box;
    }
- 
+
+section h1 {
+    color: #1E2225;
+    text-align: center;
+    font-family: Montserrat, sans-serif;
+    font-size: 32px;
+    font-weight: 700;
+    margin: 5px 0 25px;
+} 
+
   section h2 {
     color: #1E2225;
     text-align: center;
@@ -74,6 +83,15 @@ header {
     color: #4E583E;
     text-align: center;
    }
+
+section h4 {
+    color: #8C9094;
+    text-align: center;
+    font-family: Montserrat, sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    margin: 6px 0 18px;
+}
 
    .centrar {
    text-align:center;
@@ -129,32 +147,15 @@ footer {
     text-align: center;
     padding: 30px 20px;
     font-family: Roboto, sans-serif;
-}
-
-/* =========================
-   FOOTER
-   ========================= */
-
-footer {
-    background-color: #1E2225;
-    color: #F6F5F0;
-    text-align: center;
-    padding: 30px 20px;
-    font-family: Roboto, sans-serif;
     box-sizing: border-box;
 }
 
-/* Información institucional */
-
-footer .institucion,
-footer .campus {
+footer .institucion {
     margin: 0;
     color: #D89B53;
     font-size: 18px;
     line-height: 1.7;
 }
-
-/* Línea decorativa */
 
 .footer-linea {
     width: 225px;
@@ -163,24 +164,21 @@ footer .campus {
     margin: 18px auto 22px;
 }
 
-/* Créditos */
 
-footer .credito,
-footer .credito-imagenes {
+footer .credito {
     margin: 0;
     color: #F6F5F0;
     font-size: 17px;
     line-height: 1.5;
 }
 
-/* Copyright */
-
 footer .copyright {
-    margin: 2px 0 0;
-    color: #F6F5F0;
-    font-size: 17px;
+    margin: 10px 0 0;
+    color: #8C9094;
+    font-size: 13px;
     line-height: 1.5;
 }
+
 .proyectos-lista {
     padding-left: 25px;
 }
